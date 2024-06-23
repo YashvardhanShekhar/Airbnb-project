@@ -1,0 +1,49 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+  <br> <br> 
+    <h1>Create new listing</h1>
+
+    <form method="POST" class="needs-validation" action="/new" novalidate enctype="multipart/form-data">
+
+      <div class="mb">
+        <label for="title" class="form-label">Title</label>
+        <input type="text" class="form-control" id="title" name="title" required placeholder="Enter title">
+        <div class="valid-feedback"> Looks good! </div> <br>
+      </div>
+
+      <div class="mb">
+        <label for="title" class="form-label">Description</label>
+        <textarea type="text" class="form-control" name="description" required placeholder="Enter description"></textarea>
+        <div class="invalid-feedback"> Write a short description </div> <br>
+      </div>      
+        
+      <div class="mb">
+        <label for="title" class="form-label">Upload Image</label>
+        <input type="file" class="form-control" name="image"> <br>
+      </div>     
+       
+      <div class="mb">
+          <label for="title" class="form-label">Enter Price</label>
+          <input type="text" class="form-control" name="price" required placeholder="15,000">
+          <div class="invalid-feedback"> Price must be valid </div> <br>
+      </div>
+      
+      <div class="row">
+        <div class="mb col-8">
+          <label for="title" class="form-label">Location</label>
+          <input type="text" class="form-control" name="location" required placeholder="Sanjeev gandhi, Secter-4, Agra">
+          <div class="invalid-feedback"> Please enter location </div> <br>
+        </div>      
+          
+        <div class="mb col-4">
+          <label for="title" class="form-label">Country</label>
+          <input type="text" class="form-control" name="country" required placeholder="India">
+          <div class="invalid-feedback"> Please enter country name </div> <br>
+        </div>
+      </div>  
+
+      <button class="btn btn-dark"> submit </button> 
+    </form>
+
+</body>
+

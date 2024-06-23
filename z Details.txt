@@ -1,0 +1,8 @@
+
+>> Passport-Local Mongoose use the pbkdf2 algorithm of the node crypto library.
+
+56PehjoDFAS74Qqf
+
+mongodb+srv://Yashvardhan_Shekhar:<password>@cluster0.dpswc6r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+mongodb+srv://Yashvardhan_Shekhar:56PehjoDFAS74Qqf@cluster0.dpswc6r.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0

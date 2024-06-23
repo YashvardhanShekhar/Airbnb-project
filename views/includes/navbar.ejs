@@ -1,0 +1,30 @@
+<nav class="navbar navbar-expand-lg bg-body-light border-bottom sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><i class="fa-solid fa-compass fa-flip-horizontal" style="color: #ff385c;"></i></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+      <div class="navbar-nav">
+        <a class="nav-link" href="/listing">Explore</a>
+      </div>
+      
+      <form class="d-flex ms-auto" role="search">
+        <input class="form-control me-2 form-inp" type="search" placeholder="Search Destination" aria-label="Search">
+        <button class="btn btn-search" type="submit"> <i class="fa-solid fa-magnifying-glass"></i> Search </button>
+      </form>
+
+      <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="/new">Airbnb your home</a> &nbsp &nbsp &nbsp &nbsp
+        <% if(!currentuser){ %>
+          <a class="nav-link" href="/signup"><b>SignUp</b></a>
+          <a class="nav-link" href="/login"><b>LogIn</b></a>
+        <% } else { %>
+          <a class="nav-link" href="/logout"><b>LogOut</b></a>
+        <% } %>
+      </div>
+
+    </div>
+  </div>
+</nav>
