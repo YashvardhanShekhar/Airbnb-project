@@ -66,7 +66,7 @@ app.use((req,res,next)=>{
 });
 
 app.get("/",(req,res) =>{
-	res.send("site is active");
+	res.redirect("/listing");
 });
 
 app.use(listingRouter);
