@@ -70,5 +70,5 @@ This project is a web application for managing Airbnb-like rental listings and u
 5. Open a pull request.
 
 ## Contact
-For questions or feedback, feel free to reach out to the repository owner or create an issue on GitHub.
+For questions or feedback, feel free to reach out or create an issue on GitHub.
 
